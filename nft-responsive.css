@@ -1,0 +1,40 @@
+@media screen and (max-width: 960px) {
+    .main {
+        max-width: 690px;
+    }
+
+    .block-title {
+        font-size: 28px;
+    }
+
+    .block-subtitle {
+        font-size: 16px;
+        max-width: 340px;
+        line-height: 22.4px;
+    }
+
+    .top-creator {
+        flex-direction: row;
+        align-items: center;
+        width: calc(50% - 15px);
+    }
+
+    .top-creator img {
+        width: 60px;
+        margin-right: 20px;
+    }
+
+    .top-creator .card-title {
+        margin-top: 0;
+        text-align: left;
+    }
+
+    .top-creators-list {
+        gap: 30px;
+    }
+
+    .creator-counter {
+        top: 17px;
+        left: 16px;
+    }
+}
