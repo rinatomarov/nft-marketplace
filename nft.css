@@ -555,3 +555,8 @@ body::-webkit-scrollbar-thumb {
     font-size: 38px;
     line-height: 46px;
 }
+.colon-hour{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
