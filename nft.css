@@ -547,7 +547,6 @@ body::-webkit-scrollbar-thumb {
 }
 .time-hour-min-sec{
     width: 53px;
-    height: 46px;
     gap: 5px;
 }
 .cipher {

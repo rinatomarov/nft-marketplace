@@ -1,5 +1,5 @@
 @media screen and (max-width: 960px) {
-    .main {
+    .main, .footer-main, .footer-end , .nft-highlight {
         max-width: 690px;
     }
 
@@ -36,5 +36,249 @@
     .creator-counter {
         top: 17px;
         left: 16px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .header .logo::after {
+        content: '';
+        background: url("images/burger.svg");
+        height: 24px;
+        width: 24px;
+        margin-left: auto;
+    }
+
+    .header .logo {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero-description, .hero-card {
+        max-width: 330px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .hero-title {
+        font-size: 38px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .achievement-title {
+        font-size: 22px;
+    }
+
+    .achievement-subtitle {
+        font-size: 16px;
+    }
+
+    .category-img-wrapper, .category-img-wrapper img {
+        max-width: 150px;
+    }
+
+    .categories {
+        margin-top: 80px;
+    }
+
+    .categories-title {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .category-footer {
+        font-size: 16px;
+    }
+
+    .discover-card:last-child {
+        display: none;
+    }
+
+    .discover {
+        margin-top: 80px;
+    }
+
+    .contacts {
+        padding: 40px 30px;
+        gap: 30px;
+    }
+
+    .contacts-img {
+        width: 300px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .contacts .block-title {
+        width: 240px;
+    }
+
+    .contacts .form {
+        display: block;
+        max-width: 300px;
+    }
+
+    .contacts .email {
+        height: 46px;
+        padding: 16px 20px;
+    }
+
+    .contacts .button-primary {
+        height: 46px;
+        padding: 16px 20px;
+        position: relative;
+        margin-top: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .first-col, .second-col, .third-col .footer-text,.nft-highlight {
+        max-width: 100%;
+    }
+
+    .nft-highlight{
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .nft-info{
+        display: flex;
+        padding: 92px 30px ;
+        justify-content: center;
+        align-items: flex-end;
+        height: 640px;
+        background: linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%);
+    }
+    .frame-240{
+        display: flex;
+        width: 670px;
+        justify-content: space-around;
+    }
+    .nft-artist-name-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        flex: 1 0 0;
+    }
+    .magic-mash-rooms {
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main, .footer-main, .footer-end , .nft-highlight {
+        padding: 0 30px;
+    }
+
+    .header {
+        padding: 15px 30px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        padding-top: 40px;
+    }
+
+    .hero-card {
+        display: none;
+        margin-bottom: 40px;
+    }
+
+    .hero-description .hero-card {
+        display: block;
+    }
+
+    .button-primary {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-creator {
+        width: 100%;
+    }
+
+    .categories-list {
+        gap: 20px 10px;
+    }
+
+    .discover-cards {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+
+    .discover-card:last-child {
+        display: block;
+    }
+
+    .contacts {
+        background: inherit;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .contacts-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .contacts .form {
+        max-width: 100%;
+    }
+
+    .footer .form {
+        display: block;
+        max-width: 100%;
+    }
+
+    .footer .email {
+        height: 46px;
+        padding: 16px 20px;
+    }
+
+    .footer .button-primary {
+        height: 46px;
+        padding: 16px 20px;
+        position: relative;
+        margin-top: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rankings-button-mobile, .discover-button-mobile {
+        display: flex;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .rankings-button-desktop, .discover-button-desktop {
+        display: none;
+    }
+
+    .nft-highlight{
+        background-attachment: fixed;
+        background-position: center;
     }
 }
